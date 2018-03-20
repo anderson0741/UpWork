@@ -1,0 +1,84 @@
+.wrapper{
+    /* margin: 3vh 3vw; */
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7vh;
+    margin: 3vh 3vw;
+}
+.sectionWithVid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh 3vw;
+}
+.vidSectionText{
+    margin-right: 2vw;
+    align-self: flex-start
+}
+.vertical{
+    transform: rotate(270deg);
+    float: left;
+    margin-top: 23vh;
+}
+.theVideo{
+    width: 800px;
+}
+.gridSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    background-color: dodgerblue;
+    width: 100vw;
+    /* margin-right: -1; */
+}
+.backC{
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.inner{
+    background-color: rgb(196, 196, 196);
+    height: 210px;
+    width: 329px;
+    margin-top: 13vh;
+}
+.arrow{
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 2vh;
+    position: absolute;
+    box-shadow: 7px 13px 73px black;
+    background-color: dodgerblue;
+}
+.textz{
+    margin-top: 18vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 3vw;
+    text-align: center;
+}
+.btnDiv{
+    display: flex;
+    color: white;
+    height: 45px;
+    text-align: center;
+    /* margin: auto; */
+    margin-bottom: 13vh;
+    /* margin-top: -13vh; */
+}
+.blueBtn{
+    background-color: rgb(12, 85, 180);
+    width: 50%;
+    align-content: center;
+    align-items: center;
+}
+.pinkBtn{
+    background-color: mediumvioletred;
+    width: 50%;
+}
